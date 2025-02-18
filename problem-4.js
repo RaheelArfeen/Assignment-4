@@ -1,5 +1,5 @@
 function isBestFriend(f1, f2) {
-    if (typeof f1 !== 'object' || typeof f2 !== 'object') {
+    if (typeof f1 !== 'object' && typeof f2 !== 'object') {
         return "Invalid";
     }
 
